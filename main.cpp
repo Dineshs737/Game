@@ -6,6 +6,17 @@ using namespace std;
 
 board(){
 
+    for(int i=0;i<=WIDTH+1;i++){
+
+        for(int j=0;j<=HEIGHT+1;j++){
+
+            if(i==0 || i==HEIGHT+1 ||j==0 ||j==WIDTH+1){
+
+                cout<<"#"<<endl;
+            }
+        }
+    }
+
 
 }
 
