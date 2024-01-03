@@ -4,7 +4,7 @@ using namespace std;
 #define WIDTH 50
 #define HEIGHT 30
 
-board(){
+void board(){
 
     for(int i=0;i<=WIDTH+1;i++){
 
@@ -12,9 +12,13 @@ board(){
 
             if(i==0 || i==HEIGHT+1 ||j==0 ||j==WIDTH+1){
 
-                cout<<"#"<<endl;
+                cout<<"#";
+            }
+            else{
+                cout<<" ";
             }
         }
+        cout<<"\n";
     }
 
 
