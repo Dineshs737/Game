@@ -10,7 +10,7 @@ void board(){
 
         for(int j=0;j<=HEIGHT+1;j++){
 
-            if(i==0 || i==HEIGHT+1 ||j==0 ||j==WIDTH+1){
+            if(i==0 || i==WIDTH+1 ||j==0 ||j==HEIGHT+1){
 
                 cout<<"#";
             }
@@ -18,13 +18,15 @@ void board(){
                 cout<<" ";
             }
         }
-        cout<<"\n";
+        cout<<endl;
     }
 
 
 }
 
 int main(){
+
+    board();
 
     return 0;
 }
