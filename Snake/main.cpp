@@ -5,7 +5,15 @@
 #define SIZE 16
 #define W SIZE*WIDTD
 #define H SIZE*HEIGH
+
+
 using namespace sf;
+
+ Texture green(texture.loadFromFile("image/green.png"));
+
+ Texture red(texture.loadFromFile("image/red.png"));
+
+
 
 Snake snake({W/2,H/2});
 int main()

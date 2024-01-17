@@ -427,3 +427,13 @@
 1705455690 d:\workfolder\game\snake\include\snake.h
 	<windows.h>
 
+1705508277 source:c:\users\pemakaran\videos\captures\workfolder\game\snake\main.cpp
+	<SFML/Graphics.hpp>
+	<Snake.h>
+
+1705508277 c:\users\pemakaran\videos\captures\workfolder\game\snake\include\snake.h
+	<windows.h>
+
+1705508277 source:c:\users\pemakaran\videos\captures\workfolder\game\snake\src\snake.cpp
+	"Snake.h"
+
