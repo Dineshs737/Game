@@ -1,10 +1,16 @@
 #include<SFML/Graphics.hpp>
-
+#include<Snake.h>
+#define WIDTD 60
+#define HEIGH 50
+#define SIZE 16
+#define W SIZE*WIDTD
+#define H SIZE*HEIGH
 using namespace sf;
 
+Snake snake({W/2,H/2});
 int main()
 {
-    Window window(VideoMode(800,600),"SnakeGame"); // create a object for Window class
+    Window window(VideoMode(W,H),"SnakeGame"); // create a object for Window class
 
     while(window.isOpen()){// created a infinite loop
 
@@ -17,6 +23,7 @@ int main()
                 window.close();
 
         }
+       // for(int )
 
         /****************** Work the Snake function and work script ****************/
 
