@@ -49,6 +49,8 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="image/green.png" />
+		<Unit filename="image/red.png" />
 		<Unit filename="include/Snake.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Snake.cpp" />

@@ -7,12 +7,11 @@
 #define H SIZE*HEIGH
 
 
+
 using namespace sf;
 
- Texture green(texture.loadFromFile("image/green.png"));
-
- Texture red(texture.loadFromFile("image/red.png"));
-
+Texture texture1;
+texture1.loadFromFile("image\green.png",);
 
 
 Snake snake({W/2,H/2});
@@ -34,7 +33,8 @@ int main()
        // for(int )
 
         /****************** Work the Snake function and work script ****************/
-
+       // window.draw(sprite1);
+       // window.display();
 
     }
 
